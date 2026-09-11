@@ -16,11 +16,11 @@ technical case study.
 
 | Item | Link |
 |---|---|
-| Public GitHub Repository | `<PASTE_PUBLIC_GITHUB_REPO_URL>` |
-| Live Frontend / Dashboard | `<PASTE_DEPLOYED_FRONTEND_URL>` |
-| Live Backend API (base URL) | `<PASTE_DEPLOYED_API_BASE_URL>` |
-| Swagger / OpenAPI Docs | `<PASTE_DEPLOYED_API_URL>/docs` |
-| Health Check | `<PASTE_DEPLOYED_API_URL>/api/v1/health` |
+| Public GitHub Repository | https://github.com/Raka7317/company_case_study.git |
+| Live Frontend / Dashboard | https://company-case-study.onrender.com |
+| Live Backend API (base URL) | https://company-case-study.onrender.com/api/v1/documents |
+| Swagger / OpenAPI Docs | https://company-case-study.onrender.com/docs |
+| Health Check | https://company-case-study.onrender.com/api/v1/health |
 | Solution Presentation (PPT) | `docs/solution_presentation.pdf` |
 
 The backend serves the frontend itself (see Architecture below), so the
