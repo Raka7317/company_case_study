@@ -254,6 +254,46 @@ SQLite via SQLAlchemy (table `processed_documents`: `document_name`,
 
 ---
 
+## Screenshots
+
+### Dashboard
+
+<p align="center">
+  <img src="docs/0.png" alt="Document Intelligence Platform Dashboard" width="100%">
+</p>
+
+### Extracted Fields
+
+<p align="center">
+  <img src="docs/1(2).png" alt="Extracted Fields" width="100%">
+</p>
+
+### Line Items
+
+<p align="center">
+  <img src="docs/2.png" alt="Line Items" width="100%">
+</p>
+
+### Financial Validation
+
+<p align="center">
+  <img src="docs/3.png" alt="Financial Validation" width="100%">
+</p>
+
+### Raw JSON
+
+<p align="center">
+  <img src="docs/4.png" alt="Raw JSON Response" width="100%">
+</p>
+
+### Swagger / OpenAPI
+
+<p align="center">
+  <img src="docs/5.png" alt="Swagger OpenAPI Documentation" width="100%">
+</p>
+
+---
+
 ## 10. Testing
 
 `backend/tests/`:
