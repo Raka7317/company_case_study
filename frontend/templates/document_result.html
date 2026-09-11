@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document Result</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<header>
+  <h1>📄 Document Result</h1>
+  <a href="/docs" style="color:#fff;font-size:13px;">API Docs</a>
+</header>
+<main>
+  <a class="back-link" href="/">&larr; Back to Dashboard</a>
+  <div id="content">Loading...</div>
+</main>
+<script>
+  const documentName = {{ document_name | tojson }};
+</script>
+<script src="/static/js/result.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "document_name": "X51005806685.jpg",
+  "document_type": "invoice",
+  "processing_status": "PASS",
+  "file_validation": {
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS",
+    "reason": null
+  },
+  "extracted_data": {
+    "invoice_number": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "invoice_date": {
+      "value": "72 17/01",
+      "page_number": 1,
+      "source_text": "72 17/01"
+    },
+    "customer_name": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "vendor_name": {
+      "value": "ADVANCO COMPANY",
+      "page_number": 1,
+      "source_text": "ADVANCO COMPANY"
+    },
+    "currency": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "subtotal": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "tax_amount": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "discount": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "total_amount": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "line_items": []
+  },
+  "validation": {
+    "checks": [],
+    "overall_status": "PASS",
+    "issues": []
+  },
+  "processing_metadata": {
+    "extraction_method": "rule_based",
+    "ocr_used": true,
+    "processed_at": "2026-09-11T09:33:35.642626Z",
+    "processing_time_ms": 1100
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "document_name": "Consolidated Balance Sheet 2024.pdf",
+  "document_type": "balance_sheet",
+  "processing_status": "PASS",
+  "file_validation": {
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS",
+    "reason": null
+  },
+  "extracted_data": {
+    "total_assets": {
+      "value": 4030194.26,
+      "page_number": 1,
+      "source_text": "Total 4,030,194.26 2,530,432.44"
+    },
+    "total_liabilities": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "total_equity": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "currency": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "reporting_periods": {
+      "value": [
+        "As at March 31, 2024",
+        "As at",
+        "As at"
+      ],
+      "page_number": null,
+      "source_text": null
+    },
+    "line_items": [
+      {
+        "label": "As at March",
+        "values": [
+          31.0,
+          2024.0
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "SE March",
+        "values": [
+          31.0,
+          2024.0
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "March",
+        "values": [
+          31.0,
+          2023.0
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Capital",
+        "values": [
+          1.0,
+          759.69,
+          557.97
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Employees stock options outstanding",
+        "values": [
+          18.0,
+          -4.0,
+          2652.72,
+          1117.2
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Reserves and surplus",
+        "values": [
+          2.0,
+          452982.84,
+          287762.33
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Minority interest 2A",
+        "values": [
+          13383.4,
+          860.26
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Deposits",
+        "values": [
+          3.0,
+          2376887.28,
+          1882663.25
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Borrowings",
+        "values": [
+          4.0,
+          730615.46,
+          256548.66
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Other liabilities and provisions",
+        "values": [
+          5.0,
+          174832.07,
+          100922.77
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Total",
+        "values": [
+          4030194.26,
+          2530432.44
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Cash and balances with Reserve Bank of India",
+        "values": [
+          6.0,
+          178718.67,
+          117189.28
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Balances with banks and money at call and short notice",
+        "values": [
+          7.0,
+          50115.84,
+          79958.53
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Investments 8 1,005,681 .63",
+        "values": [
+          511581.71
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Advances 9 2,565,891 .41",
+        "values": [
+          1661.0,
+          949.29
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Fixed assets",
+        "values": [
+          10.0,
+          12603.76,
+          8282.56
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Other assets a",
+        "values": [
+          217182.95,
+          151322.28
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Goodwill on Consolidation -",
+        "values": [
+          148.79
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Total",
+        "values": [
+          4030194.26,
+          2530432.44
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Contingent liabilities",
+        "values": [
+          12.0,
+          2344487.73,
+          1750953.81
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Bills for collection",
+        "values": [
+          65332.87,
+          71439.54
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Mumbai, April",
+        "values": [
+          20.0,
+          2024.0
+        ],
+        "page_number": 1
+      }
+    ]
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "assets_equals_liabilities_plus_equity",
+        "formula": "total_liabilities + total_equity",
+        "operands": {
+          "total_liabilities": null,
+          "total_equity": null
+        },
+        "calculated_value": null,
+        "reported_value": 4030194.26,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      }
+    ],
+    "overall_status": "NOT_APPLICABLE",
+    "issues": []
+  },
+  "processing_metadata": {
+    "extraction_method": "rule_based",
+    "ocr_used": true,
+    "processed_at": "2026-09-11T09:33:42.247243Z",
+    "processing_time_ms": 4343
+  }
+}

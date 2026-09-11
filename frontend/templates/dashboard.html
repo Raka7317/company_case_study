@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document Intelligence Platform</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<header>
+  <h1>📄 Document Intelligence Platform</h1>
+  <a href="/docs" style="color:#fff;font-size:13px;">API Docs (Swagger)</a>
+</header>
+<main>
+  <div class="card">
+    <h3>Upload &amp; Process Document</h3>
+    <form id="upload-form" class="upload-row">
+      <select id="document_type" required>
+        <option value="invoice">Invoice</option>
+        <option value="balance_sheet">Balance Sheet</option>
+        <option value="profit_and_loss">Profit &amp; Loss</option>
+        <option value="cash_flow_statement">Cash Flow Statement</option>
+      </select>
+      <input type="file" id="file" accept=".pdf,.jpg,.jpeg,.png" required>
+      <button type="submit" id="submit-btn">Process</button>
+    </form>
+    <div class="status-msg" id="status-msg"></div>
+  </div>
+
+  <div class="card">
+    <h3>Processed Documents</h3>
+    <table>
+      <thead>
+        <tr><th>Document</th><th>Type</th><th>Status</th><th>Processed At</th></tr>
+      </thead>
+      <tbody id="doc-table-body">
+        <tr><td colspan="4">Loading...</td></tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

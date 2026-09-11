@@ -1,0 +1,313 @@
+{
+  "document_name": "Consolidated Profit & Loss 2024.pdf",
+  "document_type": "profit_and_loss",
+  "processing_status": "PASS",
+  "file_validation": {
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS",
+    "reason": null
+  },
+  "extracted_data": {
+    "revenue": {
+      "value": 283649.02,
+      "page_number": 1,
+      "source_text": "Interest earned 13 283,649.02 170,754.05"
+    },
+    "cost_of_sales": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "gross_profit": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "operating_expenses": {
+      "value": 152269.34,
+      "page_number": 1,
+      "source_text": "Operating expenses 16 152,269.34 51,533.69"
+    },
+    "operating_profit": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "tax": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "net_profit": {
+      "value": 65446.5,
+      "page_number": 1,
+      "source_text": "Consolidated Net Profit for the year before minorities\u2019 interest 65,446.50 46,148.70"
+    },
+    "currency": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "reporting_periods": {
+      "value": [
+        "For the year ended March 31, 2024"
+      ],
+      "page_number": null,
+      "source_text": null
+    },
+    "line_items": [
+      {
+        "label": "For the year ended March",
+        "values": [
+          31.0,
+          2024.0
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Interest earned",
+        "values": [
+          13.0,
+          283649.02,
+          170754.05
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Other income",
+        "values": [
+          14.0,
+          124345.75,
+          33912.05
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Total",
+        "values": [
+          407994.77,
+          204666.1
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Interest expended",
+        "values": [
+          15.0,
+          154138.55,
+          77779.94
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Operating expenses",
+        "values": [
+          16.0,
+          152269.34,
+          51533.69
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Provisions and contingencies",
+        "values": [
+          18.0,
+          -9.0,
+          36140.38,
+          29203.77
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Total",
+        "values": [
+          342548.27,
+          158517.4
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Brought forward consolidated profit attributable to the group",
+        "values": [
+          120369.35,
+          99062.77
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Total",
+        "values": [
+          188001.49,
+          145059.88
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Transfer to Statutory Reserve",
+        "values": [
+          15684.72,
+          11445.96
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Transfer to General Reserve",
+        "values": [
+          6081.23,
+          4410.87
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Transfer to Special Reserve",
+        "values": [
+          3000.0,
+          500.0
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Transfer to Capital Reserve",
+        "values": [
+          4166.41,
+          4.62
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Transfer to / (from) Investment Reserve Account (net)",
+        "values": [
+          529.42,
+          -294.79
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Transfer to / (from) Investment Fluctuation Reserve",
+        "values": [
+          378.0,
+          82.0
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Dividend pertaining to previous year paid during the year",
+        "values": [
+          8404.42,
+          8604.52
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Transfer to / (from) Minority Interest (opening adjustment)",
+        "values": [
+          -288.28,
+          -62.65
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Balance carried over to consolidated balance sheet",
+        "values": [
+          150045.57,
+          120369.35
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Total",
+        "values": [
+          188001.49,
+          145059.88
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Basic",
+        "values": [
+          90.42,
+          82.64
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Diluted",
+        "values": [
+          90.01,
+          82.27
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Mumbai, April",
+        "values": [
+          20.0,
+          2024.0
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Integrated Annual Report",
+        "values": [
+          2023.0,
+          -24.0
+        ],
+        "page_number": 1
+      }
+    ]
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "gross_profit_check",
+        "formula": "revenue - cost_of_sales",
+        "operands": {
+          "revenue": 283649.02,
+          "cost_of_sales": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "operating_profit_check",
+        "formula": "gross_profit - operating_expenses",
+        "operands": {
+          "gross_profit": null,
+          "operating_expenses": 152269.34
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "net_profit_check",
+        "formula": "operating_profit - tax",
+        "operands": {
+          "operating_profit": null,
+          "tax": null
+        },
+        "calculated_value": null,
+        "reported_value": 65446.5,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      }
+    ],
+    "overall_status": "NOT_APPLICABLE",
+    "issues": []
+  },
+  "processing_metadata": {
+    "extraction_method": "rule_based",
+    "ocr_used": true,
+    "processed_at": "2026-09-11T09:33:47.678544Z",
+    "processing_time_ms": 5427
+  }
+}

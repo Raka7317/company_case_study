@@ -1,0 +1,347 @@
+{
+  "document_name": "Consolidated Cash Flow Statement 2024.pdf",
+  "document_type": "cash_flow_statement",
+  "processing_status": "PASS",
+  "file_validation": {
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 2,
+    "status": "PASS",
+    "reason": null
+  },
+  "extracted_data": {
+    "operating_cash_flow": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "investing_cash_flow": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "financing_cash_flow": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "opening_cash": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "net_change_in_cash": {
+      "value": 20504.99,
+      "page_number": 2,
+      "source_text": "Net increase in cash and cash equivalents 20,504.99 41,762.08"
+    },
+    "closing_cash": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "currency": {
+      "value": null,
+      "page_number": null,
+      "source_text": null
+    },
+    "reporting_periods": {
+      "value": [
+        "For the year ended March 31, 2024",
+        "For the year ended March 31, 2024"
+      ],
+      "page_number": null,
+      "source_text": null
+    },
+    "line_items": [
+      {
+        "label": "For the year ended March",
+        "values": [
+          31.0,
+          2024.0
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "March 31, 2024 March",
+        "values": [
+          31.0,
+          2023.0
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Depreciation on fixed assets",
+        "values": [
+          3092.08,
+          2345.47
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Amortisation of premium on held to maturity investments",
+        "values": [
+          966.09,
+          851.2
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Profit on sale of fixed assets",
+        "values": [
+          -75.36,
+          -8.05
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Provision / charge for non performing assets",
+        "values": [
+          12540.05,
+          13561.19
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Provision for standard assets and contingencies",
+        "values": [
+          1578.23,
+          292.89
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Employee stock options / units expense",
+        "values": [
+          1731.73,
+          787.06
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Increase in investments",
+        "values": [
+          -88411.63,
+          -64182.03
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Increase in advances",
+        "values": [
+          -309210.7,
+          -254569.45
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Increase in deposits",
+        "values": [
+          336964.81,
+          824660.22
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Increase in other assets",
+        "values": [
+          -31197.26,
+          -68909.79
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Increase in other liabilities and provisions",
+        "values": [
+          6420.4,
+          10459.86
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Direct taxes paid (net of refunds)",
+        "values": [
+          -22842.84,
+          -16367.49
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Net cash flows from operating activities",
+        "values": [
+          19069.34,
+          20813.7
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Purchase of fixed assets",
+        "values": [
+          -4286.72,
+          -8466.57
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Proceeds from sale of fixed assets",
+        "values": [
+          99.82,
+          42.68
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Net cash flow from / (used) in investing activities",
+        "values": [
+          5313.77,
+          -3423.89
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Increase in minority interest",
+        "values": [
+          1201.66,
+          198.96
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "Proceeds from issue of share capital other than warrants",
+        "values": [
+          5249.73,
+          3415.83
+        ],
+        "page_number": 1
+      },
+      {
+        "label": "For the year ended March",
+        "values": [
+          31.0,
+          2024.0
+        ],
+        "page_number": 2
+      },
+      {
+        "label": "March 31, 2024 March",
+        "values": [
+          31.0,
+          2023.0
+        ],
+        "page_number": 2
+      },
+      {
+        "label": "Proceeds from issue of Tier 1 and Tier 2 capital instruments",
+        "values": [
+          2350.0,
+          28000.0
+        ],
+        "page_number": 2
+      },
+      {
+        "label": "Redemption of Tier 1 and Tier 2 capital instruments",
+        "values": [
+          -230.0,
+          -12077.0
+        ],
+        "page_number": 2
+      },
+      {
+        "label": "Dividend paid during the year",
+        "values": [
+          -8404.42,
+          -8604.52
+        ],
+        "page_number": 2
+      },
+      {
+        "label": "Net cash flow (used) / from financing activities",
+        "values": [
+          -3983.06,
+          23940.56
+        ],
+        "page_number": 2
+      },
+      {
+        "label": "Effect of fluctuation in foreign currency translation reserve",
+        "values": [
+          104.94,
+          431.71
+        ],
+        "page_number": 2
+      },
+      {
+        "label": "Net increase in cash and cash equivalents",
+        "values": [
+          20504.99,
+          41762.08
+        ],
+        "page_number": 2
+      },
+      {
+        "label": "Cash and cash equivalents at the beginning of the year",
+        "values": [
+          197147.81,
+          155385.73
+        ],
+        "page_number": 2
+      },
+      {
+        "label": "Cash and cash equivalents at the end of the year",
+        "values": [
+          228834.51,
+          197147.81
+        ],
+        "page_number": 2
+      },
+      {
+        "label": "Integrated Annual Report",
+        "values": [
+          2023.0,
+          -24.0
+        ],
+        "page_number": 2
+      }
+    ]
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "net_change_in_cash_check",
+        "formula": "operating_cash_flow + investing_cash_flow + financing_cash_flow",
+        "operands": {
+          "operating_cash_flow": null,
+          "investing_cash_flow": null,
+          "financing_cash_flow": null
+        },
+        "calculated_value": null,
+        "reported_value": 20504.99,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "closing_cash_check",
+        "formula": "opening_cash + net_change_in_cash",
+        "operands": {
+          "opening_cash": null,
+          "net_change_in_cash": 20504.99
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      }
+    ],
+    "overall_status": "NOT_APPLICABLE",
+    "issues": []
+  },
+  "processing_metadata": {
+    "extraction_method": "rule_based",
+    "ocr_used": true,
+    "processed_at": "2026-09-11T09:33:55.928060Z",
+    "processing_time_ms": 8245
+  }
+}

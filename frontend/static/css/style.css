@@ -1,0 +1,59 @@
+:root {
+  --primary: #2563eb;
+  --pass: #16a34a;
+  --fail: #dc2626;
+  --na: #6b7280;
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --border: #e2e8f0;
+  --text: #1f2937;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--bg); color: var(--text);
+}
+header {
+  background: var(--primary); color: #fff; padding: 18px 28px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+header h1 { font-size: 20px; margin: 0; }
+main { max-width: 1100px; margin: 24px auto; padding: 0 16px; }
+.card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 20px; margin-bottom: 20px; box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+.upload-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+select, input[type=file] {
+  padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 14px;
+}
+button {
+  background: var(--primary); color: #fff; border: none; padding: 9px 18px;
+  border-radius: 6px; cursor: pointer; font-size: 14px;
+}
+button:hover { opacity: .9; }
+button:disabled { background: #94a3b8; cursor: not-allowed; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+th { color: #64748b; font-weight: 600; }
+tr:hover { background: #f8fafc; }
+a.row-link { color: var(--primary); text-decoration: none; cursor: pointer; }
+.badge { padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; color: #fff; }
+.badge.PASS { background: var(--pass); }
+.badge.FAILED { background: var(--fail); }
+.badge.FAIL { background: var(--fail); }
+.badge.NOT_APPLICABLE { background: var(--na); }
+.kv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 20px; }
+.kv-grid .item { padding: 8px 10px; background: #f8fafc; border-radius: 6px; border: 1px solid var(--border); }
+.kv-grid .item.missing { border-color: #fca5a5; background: #fef2f2; }
+.kv-grid .label { font-size: 12px; color: #64748b; }
+.kv-grid .value { font-size: 15px; font-weight: 600; }
+pre.json-view {
+  background: #0f172a; color: #e2e8f0; padding: 16px; border-radius: 8px;
+  max-height: 480px; overflow: auto; font-size: 12.5px;
+}
+.status-msg { font-size: 13px; margin-top: 8px; }
+.tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+.tabs button.tab { background: #e2e8f0; color: var(--text); }
+.tabs button.tab.active { background: var(--primary); color: #fff; }
+.back-link { display: inline-block; margin-bottom: 14px; color: var(--primary); text-decoration: none; }
