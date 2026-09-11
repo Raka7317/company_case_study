@@ -31,6 +31,10 @@ deployed service**.
 
 ## 1. Architecture
 
+<p align="center">
+  <img src="docs/architecture.png" alt="Document Intelligence Platform Architecture" width="100%">
+</p>
+
 See `docs/architecture.png` for the diagram. High-level flow:
 
 ```
