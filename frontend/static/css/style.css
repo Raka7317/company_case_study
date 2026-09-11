@@ -38,6 +38,11 @@ th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--bo
 th { color: #64748b; font-weight: 600; }
 tr:hover { background: #f8fafc; }
 a.row-link { color: var(--primary); text-decoration: none; cursor: pointer; }
+.view-btn {
+  background: #fff; color: var(--primary); border: 1px solid var(--primary);
+  padding: 6px 14px; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer;
+}
+.view-btn:hover { background: var(--primary); color: #fff; }
 .badge { padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; color: #fff; }
 .badge.PASS { background: var(--pass); }
 .badge.FAILED { background: var(--fail); }
