@@ -5,7 +5,7 @@ Invoices, Balance Sheets, Profit & Loss statements and Cash Flow
 statements (PDF / JPG / PNG). Built for the AI Engineer Internship
 technical case study.
 
-> ⚠️ **Before submitting:** fill in the placeholders in the
+>  **Before submitting:** fill in the placeholders in the
 > [Live Deployment & Repository](#0-live-deployment--repository) section
 > below with your actual URLs. An evaluator should be able to open this
 > file and reach the working app without running any code locally.
